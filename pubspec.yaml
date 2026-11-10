@@ -1,0 +1,70 @@
+name: edu_palestine
+description: "Application Mobile d'Apprentissage et de Mentorat - EduPalestine"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sqflite_common_ffi: ^2.3.0
+
+  # UI Icons
+  cupertino_icons: ^1.0.8
+
+  # State Management
+  provider: ^6.1.1
+
+  # Database
+  sqflite: ^2.3.0
+  path_provider: ^2.1.1
+  path: ^1.8.3
+  
+  # Web storage
+  shared_preferences: ^2.2.2
+  localstorage: ^5.0.0
+
+  # Form Validation - Using ^ to allow minor updates
+  email_validator: ^2.1.17
+
+  # Secure Storage - Using ^ to allow minor updates
+  flutter_secure_storage: ^9.0.0
+
+  # Crypto for password hashing
+  crypto: ^3.0.3
+
+  # Utils - Using ^ to allow patch updates
+  intl: ^0.18.1
+  uuid: ^4.2.1
+
+  # HTTP for downloading resources
+  http: ^1.1.2
+
+  # Video Player - Using ^ for flexibility
+  video_player: ^2.8.1
+  chewie: ^1.7.4
+  # youtube_player_flutter: ^9.1.1 - Removed due to Windows compatibility issues
+  
+  # Note: YouTube videos removed for Windows compatibility
+
+  # PDF Viewer - Using ^ to allow patch updates within v27
+  syncfusion_flutter_pdfviewer: ^27.2.5
+
+  # URL Launcher
+  url_launcher: ^6.2.2
+
+  # File Picker - Using ^ to allow minor updates
+  file_picker: ^8.1.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Lints - Using ^ to allow minor updates
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
